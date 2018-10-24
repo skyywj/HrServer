@@ -59,7 +59,7 @@ public class EmpBasicController {
         return String.format("%08d", empService.getMaxWorkID() + 1);
     }
 
-    @RequestMapping("test")
+    @RequestMapping("src/main/test")
     public String test(){
         return "ywj test success";
     }

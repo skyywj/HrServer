@@ -2,6 +2,7 @@
 /Users/a/zidan/task002-learn/vhr/vhr/hrserver/src/main/java/org/sang/mapper/SysMsgMapper.java
 /Users/a/zidan/task002-learn/vhr/vhr/hrserver/src/main/java/org/sang/controller/salary/SalaryEmpController.java
 /Users/a/zidan/task002-learn/vhr/vhr/hrserver/src/main/java/org/sang/controller/system/SystemBasicController.java
+/Users/a/zidan/task002-learn/vhr/vhr/hrserver/src/main/java/org/sang/dao/EmpDao.java
 /Users/a/zidan/task002-learn/vhr/vhr/hrserver/src/main/java/org/sang/bean/ChatResp.java
 /Users/a/zidan/task002-learn/vhr/vhr/hrserver/src/main/java/org/sang/bean/Menu.java
 /Users/a/zidan/task002-learn/vhr/vhr/hrserver/src/main/java/org/sang/service/PositionService.java

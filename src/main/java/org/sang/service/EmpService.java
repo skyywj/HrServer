@@ -3,6 +3,7 @@ package org.sang.service;
 import org.sang.bean.Employee;
 import org.sang.bean.Nation;
 import org.sang.bean.PoliticsStatus;
+import org.sang.dao.EmpDao;
 import org.sang.mapper.EmpMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -21,7 +22,7 @@ import java.util.List;
 @Transactional
 public class EmpService {
     @Autowired
-    EmpMapper empMapper;
+    EmpDao empMapper;
     SimpleDateFormat yearFormat = new SimpleDateFormat("yyyy");
     SimpleDateFormat monthFormat = new SimpleDateFormat("MM");
     SimpleDateFormat birthdayFormat = new SimpleDateFormat("yyyy-MM-dd");
@@ -43,6 +44,9 @@ public class EmpService {
         return empMapper.addEmp(employee);
     }
 
+    public Employee getEmpById(int id){
+        return empMapper.getEmpById(id);
+    }
     public Long getMaxWorkID() {
         Long maxWorkID = empMapper.getMaxWorkID();
         return maxWorkID == null ? 0 : maxWorkID;
